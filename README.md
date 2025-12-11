@@ -47,4 +47,4 @@ It was a super fun assignment from my mentor, and I learned a LOT while building
 ---
 
 ## 📸 Live
-[CLick here]()
+[CLick here](https://windowsuiclone.netlify.app/)
