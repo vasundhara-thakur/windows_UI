@@ -2,7 +2,7 @@
 
 This project is a **Windows-style Desktop UI Clone** built using **HTML, CSS, and JavaScript**.  
 It includes a fully interactive desktop with icons, a Start Menu, dynamic app rendering,  
-and smooth UI interactions—designed to look and feel like a real Windows experience.
+and smooth UI interactions designed to look and feel like a real Windows experience.
 
 ---
 
