@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windows UI</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet"/>
+</head>
+<body>
+    <main>
+        <div class="desktop"></div>
+
+        <div class="taskbar">
+            <div class="taskbar-left">
+                <img src="./desktop-icons/temperature.png" alt="temperature-icon">
+            </div>
+
+            <div class="taskbar-middle">
+                <img id="startMenu" class="start-btn" src="./desktop-icons/windows.png" alt="windows-icon">
+                <div class="search-bar">
+                    <i class="ri-search-line"></i>
+                    <input type="text" placeholder="Search">
+                </div>
+                <img src="./desktop-icons/folder.png" alt="file-manager-icon">
+                <img src="./desktop-icons/chrome.png" alt="chrome-icon">
+                <img src="./desktop-icons/pictures.png" alt="pic-icon">
+            </div>
+
+            <div class="taskbar-right">
+                <div class="cloud">
+                    <i class="ri-arrow-up-s-line"></i>
+                    <i class="ri-cloud-line"></i>
+                </div>
+                <div class="info">
+                    <div class="wifi">
+                        <i class="ri-wifi-line"></i>
+                    </div>
+                    <div class="volume">
+                        <i class="ri-volume-up-line"></i>
+                    </div>
+                    <div class="battery">
+                        <i class="ri-battery-low-line"></i>
+                    </div>
+                </div>
+                <div class="time">
+                    <p>12:30</p>
+                    <p>11-12-2025</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="clickMenu" class="click-menu">
+            <div class="items">
+                <div class="left">
+                    <i class="ri-gallery-view-2"></i>
+                    <h6>View</h6>
+                </div>
+                <div class="right"><i class="ri-arrow-right-s-line"></i></div>
+            </div>
+            <div class="items">
+                <div class="left">
+                    <i class="ri-arrow-up-down-line"></i>
+                    <h6>Sort By</h6>
+                </div>
+                <div class="right"><i class="ri-arrow-right-s-line"></i></div>
+            </div>
+            
+            <div class="items">
+                <div class="left">
+                    <i class="ri-restart-line"></i>
+                    <h6>Refresh</h6>
+                </div>
+            </div>
+            
+            <div class="items">
+                <div class="left">
+                    <i class="ri-add-circle-line"></i>
+                    <h6>New</h6>
+                </div>
+                <div class="right"><i class="ri-arrow-right-s-line"></i></div>
+            </div>
+        
+            <div class="items">
+                <div class="left">
+                    <i class="ri-folder-settings-line"></i>
+                    <h6>Display Setting</h6>
+                </div>
+            </div>
+            <div class="items">
+                <div class="left">
+                    <i class="ri-brush-line"></i>
+                    <h6>Personalise</h6>
+                </div>
+            </div>
+        </div>
+    </main>
+  <script src="script.js"></script>
+</body>
+</html>
